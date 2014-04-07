@@ -7,3 +7,14 @@ copy
 in git:
 ---------------
 gitbook build c:/Sites/bookdoc -t "数据科学实战笔记"
+
+git config --global alias.bookbuild '!gitbook build c:/Sites/bookmaster -t "数据科学实战笔记"'
+以后每次git bookbuild即可更新图书。
+
+git config --global alias.bookmaster '!gitbook build c:/Sites/bookmaster -t "数据科学实战笔记"'
+以后每次git bookbuild即可更新图书。
+
+
+cp -r c:/sites/bookmaster/book/* c:/sites/bookpages/
+
+git config --global alias.book '!gitbook build c:/Sites/bookmaster -t "数据科学实战笔记" && cp -r c:/sites/bookmaster/_book/* c:/sites/bookpages/ && cd c:/sites/bookpages && git add --all && git commit -m "book renew" && git push origin gh-pages'
