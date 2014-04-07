@@ -9,8 +9,6 @@ in git:
 gitbook build c:/Sites/bookdoc -t "数据科学实战笔记"
 
 git config --global alias.bookbuild '!gitbook build c:/Sites/bookmaster -t "数据科学实战笔记"'
-以后每次git bookbuild即可更新图书。
-
 git config --global alias.bookmaster '!gitbook build c:/Sites/bookmaster -t "数据科学实战笔记"'
 以后每次git bookbuild即可更新图书。
 
