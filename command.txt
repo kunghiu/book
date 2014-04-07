@@ -18,4 +18,4 @@ git config --global alias.bookmaster '!gitbook build c:/Sites/bookmaster -t "Êý¾
 cp -r c:/sites/bookmaster/book/* c:/sites/bookpages/
 
 ÖÕ¼«°æ£¬Ã¿´ÎÊ¹ÓÃgit book¼´¿ÉÈ«·½Î»¸üÐÂ
-git config --global alias.book '!gitbook build c:/Sites/bookmaster -t "Êý¾Ý¿ÆÑ§ÊµÕ½±Ê¼Ç" && cp -r c:/sites/bookmaster/_book/* c:/sites/bookpages/ && cd c:/sites/bookpages && git add --all && git commit -m "book renew" && git push origin gh-pages'
+git config --global alias.book '!gitbook build c:/Sites/bookmaster -t "Êý¾Ý¿ÆÑ§ÊµÕ½±Ê¼Ç" && cp -r c:/sites/bookmaster/_book/* c:/sites/bookpages/ && cd c:/sites/bookpages && git add --all && git commit -m "pages renew" && git push origin gh-pages && cd c:/sites/bookmaster && git add --all && git commit -m "book renew" && git push origin master'
