@@ -1,0 +1,9 @@
+cd c:\Sites\bookdoc
+gitbook build -t "数据科学实战笔记"
+
+copy
+
+
+in git:
+---------------
+gitbook build c:/Sites/bookdoc -t "数据科学实战笔记"
