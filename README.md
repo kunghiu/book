@@ -1,6 +1,7 @@
 数据科学实战笔记
 ====
 --记录我的数据科学修炼历程  
+作者：KungHiu  
 
 ##内容提要  
 ###第一部分 工欲善其事  
@@ -18,3 +19,7 @@
 ###第四部分 远望山更高  
 第10章 数据产品开发  
 ###附录  
+
+
+![BY-NC-ND](http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)  
+本作品采用知识共享[Attribution-NonCommercial-NoDerivatives 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/)国际许可协议进行许可。  
