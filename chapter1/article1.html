@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
+        <meta charset="UTF-8">
+        <title>Article 1 | Book</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="kunghiu">
+        <meta name="description" content="Book generated using GitBook">
+        <meta name="keywords" content="gitbook,github" >
+        <meta name="generator" content="www.gitbook.io">
+
+        
+        
+        <link rel="prev" href="../chapter1\README.html" />
+        
+
+        <meta property="og:title" content="Article 1 | Book">
+        <meta property="og:site_name" content="Book">
+        <meta property="og:type" content="book">
+        <meta property="og:locale" content="en_US">
+
+        <meta property="book:author" content="https://github.com/kunghiu">
+        <meta property="book:tag" content="GitBook">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link rel="shortcut icon" href="..\gitbook/images/favicon.ico" type="image/x-icon">
+
+        
+        <link rel="stylesheet" href="..\gitbook/style.css">
+        
+        
+    </head>
+    <body>
+        
+<div class="book" data-github="kunghiu/book" data-level="1.1">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="https://github.com/kunghiu/book" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
+    <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
+
+    <!-- Actions Right -->
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://github.com/kunghiu/book/stargazers" target="_blank" class="btn pull-right count-star"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/kunghiu/book/watchers" target="_blank" class="btn pull-right count-watch"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+
+
+    <!-- Title -->
+    <h1><a href="../README.html" >Book</a></h1>
+</div>
+
+    <div class="book-summary">
+    <ul class="summary">
+        <li>
+            <a href="https://github.com/kunghiu" target="blank">About the author</a>
+        </li>
+        <li>
+            <a href="https://github.com/kunghiu/book/issues" target="blank">Questions and Issues</a>
+        </li>
+        <li>
+            <a href="https://github.com/kunghiu/book/edit/master/chapter1\article1.md" target="blank">Edit and Contribute</a>
+        </li>
+        <li class="divider"></li>
+        <li data-level="0">
+            <a href="../README.html"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+            <li  data-level="1">
+                
+                <a href="../chapter1\README.html">
+                    <i class="fa fa-check"></i> <b>1)</b> Chapter 1
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="1.1">
+                            
+                            <a href="../chapter1\article1.html">
+                                <i class="fa fa-check"></i> <b>1.1)</b> Article 1
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body" tabindex="-1">
+        <div class="page-wrapper">
+            <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 100%;min-width: 50%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../README.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../chapter1\README.html" title="Chapter 1" class="chapter done new-chapter" data-progress="1" style="left: 50%;"></a>
+    
+        <a href="../chapter1\article1.html" title="Article 1" class="chapter done " data-progress="1.1" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+            <div class="page-inner">
+            
+                <section class="normal" id="section-gitbook_3">
+                
+                    <h1 id="gitbook">GitBook</h1>
+<p><a href="https://travis-ci.org/GitbookIO/gitbook" target="_blank"><img src="https://travis-ci.org/GitbookIO/gitbook.png?branch=master" alt="Build Status"></a></p>
+<p>GitBook is a command line tool (and Node.js library) for building beautiful programming books and exercises using GitHub/Git and Markdown. You can see an example: <a href="http://gitbookio.github.io/javascript/" target="_blank">Learn Javascript</a>.</p>
+<p><img src="https://raw.github.com/GitbookIO/gitbook/master/preview.png" alt="Image"></p>
+<h2 id="how-to-use-it-">How to use it:</h2>
+<p>GitBook can be installed from <strong>NPM</strong> using:</p>
+<pre><code><span class="hljs-variable">$ </span>npm install gitbook -g
+</code></pre><p>You can serve a repository as a book using:</p>
+<pre><code><span class="hljs-variable">$ </span>gitbook serve ./repository
+</code></pre><p>Or simply build the static website using:</p>
+<pre><code><span class="hljs-attribute">$ gitbook build ./repository --output</span>=<span class="hljs-string">./outputFolder</span>
+</code></pre><p>Options for commands <code>build</code> and <code>serve</code> are:</p>
+<pre><code>-t, --title &lt;name&gt; Name <span class="hljs-keyword">of</span> the book <span class="hljs-keyword">to</span> generate, defaults <span class="hljs-keyword">to</span> repo name
+-i, --intro &lt;intro&gt; Description <span class="hljs-keyword">of</span> the book <span class="hljs-keyword">to</span> generate
+-g, --github &lt;repo_path&gt; ID <span class="hljs-keyword">of</span> github repo <span class="hljs-keyword">like</span> : username/repo
+</code></pre><h2 id="book-format">Book Format</h2>
+<p>A book is a GitHub repository containing at least 2 files: <code>README.md</code> and <code>SUMMARY.md</code>.</p>
+<h4 id="readme-md">README.md</h4>
+<p>As usual, it should contains an introduction for your book. It will be automatically added to the final summary.</p>
+<h4 id="summary-md">SUMMARY.md</h4>
+<p>The <code>SUMMARY.md</code> defines your book&#39;s structure. It should contain a list of chapters, linking to their respective pages.</p>
+<p>Example:</p>
+<pre><code><span class="hljs-header"># Summary</span>
+
+This is the summary of my book.
+
+<span class="hljs-bullet">* </span>[<span class="hljs-link_label">section 1</span>](<span class="hljs-link_url">section1/README.md</span>)
+<span class="hljs-code">    * [example 1](section1/example1.md)</span>
+<span class="hljs-code">    * [example 2](section1/example2.md)</span>
+<span class="hljs-bullet">* </span>[<span class="hljs-link_label">section 2</span>](<span class="hljs-link_url">section2/README.md</span>)
+<span class="hljs-code">    * [example 1](section2/example1.md)</span>
+</code></pre><p>Files that are not included in the <code>SUMMARY.md</code> will not be processed by <code>gitbook</code>.</p>
+<h4 id="exercises">Exercises</h4>
+<p>A book can contain interactive exercises (currently only in Javascript but Python and Ruby are coming soon ;) ). An exercise is a code challenge provided to the reader, which is given a code editor to write a solution which is checked against the book author&#39;s validation code.</p>
+<p>An exercise is defined by 4 simple parts:</p>
+<ul>
+<li>Exercise <strong>Message</strong>/Goals (in markdown/text)</li>
+<li><strong>Initial</strong> code to show to the user, providing a starting point</li>
+<li><strong>Solution</strong> code, being a correct solution to the exercise</li>
+<li><strong>Validation</strong> code that tests the correctness of the user&#39;s input</li>
+</ul>
+<p>Exercises need to start and finish with a separation bar (<code>---</code> or <code>***</code>). It should contain 3 code elements (<strong>base</strong>, <strong>solution</strong> and <strong>validation</strong>).</p>
+<pre><code>---
+
+Define <span class="hljs-literal">a</span> variable <span class="hljs-escape">`x</span><span class="hljs-escape">` </span>equal to <span class="hljs-number">10</span>.
+
+<span class="hljs-escape">``</span><span class="hljs-escape">`j</span>s
+var x = 
+<span class="hljs-escape">``</span><span class="hljs-escape">`
+</span>
+<span class="hljs-escape">``</span><span class="hljs-escape">`j</span>s
+var x = <span class="hljs-number">10</span><span class="hljs-comment">;</span>
+<span class="hljs-escape">``</span><span class="hljs-escape">`
+</span>
+<span class="hljs-escape">``</span><span class="hljs-escape">`j</span>s
+assert(x == <span class="hljs-number">10</span>)<span class="hljs-comment">;</span>
+<span class="hljs-escape">``</span><span class="hljs-escape">`
+</span>
+---
+</code></pre>
+                
+                </section>
+            
+            </div>
+
+            <div class="page-footer">
+    
+        
+        <div class="navigation-link finished">Finished!</div>
+        
+    
+</div>
+        </div>
+    </div>
+</div>
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
+        <script src="..\gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+        <script src="..\gitbook/app.js"></script>
+        
+    </body>
+</html>
